@@ -1,0 +1,258 @@
+/L17"ooRexx (Open Object Rexx)" Nocase NestBlockComments
+/File Extensions = REX REXX REXJ CLS RXJ RXO NRX _REX _REXX
+/LanguageMarker = #!/bin/rexx
+/Line Comment = --
+/Block Comment On = /*
+/Block Comment Off = */
+/Delimiters_ = '".,;~()|/
+/Delimiters = ~!@$%^&*()_-+=|\/{}[]:;"'<> ,.?/
+/Indent Strings = "DO" "IF" "ELSE" "ELSEIF" "LOOP" "SELECT" "WHEN" "FOR" ":" "::"
+/Unindent Strings = "END" "return"
+/Open Brace Strings = "(" "["
+/Close Brace Strings = ")" "]"
+/Open Fold Strings = ":" "DO" "::Annotate" "::Attribute" "::Class" "::Constant" "::Method" "::Options" "::Requires" "::Resource" "::Routine"
+/Close Fold Strings = "END" "return" "exit"
+/Function String 1 = "%[a-zA-Z_0-9]+[:]^p"
+/Function String 2 = "%[ ^t]++[:][:]Method [a-zA-Z_0-9]+$"
+/Function String 3 = "%[ ^t]++[:][:]Routine [a-zA-Z_0-9]+$"
+/Marker Characters = "//"
+
+/TGBegin "Functions"
+/TGFindStr = "^(?!if\b|else\b|while\b|do\b|loop\b|[\s*])(?:[\w*~_&]+?\s+){1,6}([\w:*~_&]+\s*)\([^);]*\)[^{;]*?(?:^[^\r\n{]*;?[\s]+){0,10}\{"
+/TGBegin "Parameters"
+/TGFindStr = "\s*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+
+/C1"Keywords"
+address arg
+boolean byte
+call crossRef
+diag do drop double
+else end exit expose
+float forward
+guard
+if import int interpret iterate
+leave long loop
+noCrossRef noDiag noFormat NOP noReplace noStrictArgs noStrictAssign noStrictCase noStrictSignal noTrace noUTF9 noVerbose noVerboseX NUMERIC
+options otherwise
+package parse procedure properties pull push
+queue
+raise reply return rexx
+say select self short signal strictArgs strictAssign strictCase strictSignal super
+then trace
+use UTF9
+verbose verbosex
+
+/C2"Built-In Functions/Objects"
+.context .endOfLine .environment .error .false .input .line .local .methods .nil .output .RS .true .stdErr .stdIn .stdOut .stdQue
+abbrev abs abstract additional append
+b2x beep binary bitAnd bitOr bitXor both
+c2d c2x catch center centre changeStr char charIn charOut chars checked close compare condition constant copies countStr
+d2c d2x dataType date dateTime delStr delWord directory
+endLocal errorText exists extends
+filespec final finally flush focused format
+handle hasCode hasIndex hasMethod
+implements inherit inheritable insert interface
+lastPos left length line lineIn lineOut lines
+max metaClass min mixingClass
+native new noBuffer
+object open overlay
+pos position private protect put
+qualify query queued
+random read reclength replace returns reverse right rxFuncAdd rxFuncDrop rxFuncQuery rxQueue
+sign seek selected signals size sleepMS sort sortAdditional source sourceLine space static stream streamType strip subClass subStr subword symbol sys
+time timeStamp translate trunc
+unChecked unFocused unSelected userID uses
+var variable verify version volatile
+word wordIndex wordLength wordPos words write
+x2b x2c x2d xrange
+
+/C3"REXX Utilities"
+regExp_Init regExp_Match regExp_Parse regExp_Pos regExp_Uninit
+rxCalcArcCos rxCalcArcSin rxCalcArcTan rxCalcCos rxCalcCosh rxCalcCotan rxCalcExp rxCalcLog rxCalcLog10 rxCalcPi rxCalcPower rxCalcSin rxCalcSinh rxCalcSqrt rxCalcTan
+rxCalcTanh rxMessageBox rxWinExec
+sockAccept sockBind sockClose sockConnect sockDropFuncs sockGetHostByAddr sockGetHostByName sockGetHostId sockGetPeerName sockGetSockName sockGetSockOpt sockInit
+sockIoctl sockListen sockLoadFuncs sockPSock_Errno sockRecv sockRecvFrom sockSelect sockSend sockSendTo sockSetSockOpt sockShutDown sockSock_Errno sockSocket
+sockSoClose sockVersion
+sysAddCmdPkg sysAddFuncPkg sysAddRexxMacro sysArcCos sysArcSin sysArcTan
+sysBootDrive
+sysClearRexxMacroSpace sysCloseEventSem sysCloseMutexSem sysCls sysCos sysCosH sysCotan sysCreateEventSem sysCreateMutexSem sysCreatePipe sysCurPos sysCurState
+sysDriveInfo sysDriveMap sysDropCmdPkg sysDropFuncPkg sysDropFuncs sysDropRexxMacro sysDumpVariables
+sysExp
+sysFileCopy sysFileDelete sysFileExists sysFileMove sysFileSearch sysFilesystemType sysFileTree sysFork sysFromUnicode
+sysGetErrorText sysGetFileDateTime sysGetKey sysGetMessage sysGetMessageX sysGetpid
+sysIni sysIsFile sysIsFileCompressed sysIsFileDirectory sysIsFileEncrypted sysIsFileLink sysIsFileNotContentIndexed sysIsFileOffline sysIsFileSparse sysIsFileTemporary
+sysLinVer sysLoadFuncs sysLoadRexxMacroSpace sysLog sysLog10
+sysMkDir
+sysOpenEventSem sysOpenMutexSem
+sysPi sysPostEventSem sysPower sysPulseEventSem
+sysQueryProcess sysQueryRexxMacro
+sysReleaseMutexSem sysReorderRexxMacro sysRequestMutexSem sysResetEventSem sysRmDir
+sysSaveRexxMacroSpace sysSearchPath sysSetFileDateTime sysSetPriority sysSin sysSinH sysSleep sysSqrt sysStemCopy sysStemDelete sysStemInsert sysStemSort
+sysSwitchSession sysSystemDirectory
+sysTan sysTanH sysTempFileName sysTextScreenRead sysTextScreenSize sysToUnicode sysToUniCode
+sysUtilVersion
+sysVersion sysVolumeLabel
+sysWait sysWaitEventSem sysWaitNamedPipe sysWinDecryptFile sysWinEncryptFile sysWinGetDefaultPrinter sysWinGetPrinters sysWinSetDefaultPrinter sysWinVer 
+
+/C4"Operators"
+!
+%
+&
+*
++
+-
+=
+.
+,
+//
+/
+\
+:
+<
+>
+^
+|
+~
+(
+)
+
+/C5"Object Rexx"
+.alarm .application .argUtil .array 
+.bag .buffer 
+.caselessColumnComparator .caselessComparator .caselessDescendingComparator .circularQueue .class .collection .columnComparator .comparable .comparator
+.dateTime .DEF .DEF_CLASS .DEF_FILE .DEF_LABEL .DEF_METHOD .DEF_PROCEDURE .DEF_REQUIRES .DEF_ROUTINE .descendingComparator .directory .dlgUtil
+.identityTable .inputOutputStream .inputStream .invertingComparator
+.list
+.mapCollection .message .method .monitor .mutableBuffer
+.NLS
+.object .orderable .orderedCollection .OS .outputStream
+.package .pointer .properties
+.queue
+.relation .rexxContext .rexxQueue .routine
+.scriptable .server .set .setCollection .stack .stem .stream .streamSupplier .string .supplier
+.table .timeSpan
+.weakReference
+comCtl32Version
+dlg
+initCode is64Bit
+messageDialog
+public
+useGlobalConstDir 
+
+/C6"Conditions"
+all any arguments array
+by
+case caseless commands countinue
+delegate description digits
+engineering error external
+failure for forever form fuzz
+get guarded
+halt
+index intermediates item
+label labels local lostDigits lower
+name noMethod normal noString notReady noValue null
+on off over
+propagate protected
+results
+scientific set strict syntax
+to
+unGuarded unProtected upper user
+value
+when while with
+until 
+
+/C7"Buildin Classes"
+alarm attribute
+buffer
+class comparable comparator
+file
+inputOutputStream inputStream
+mapCollection message method monitor mutableBuffer
+outputStream orderable orderedCollection
+pointer
+regularExpression requires rexxContext rexxQueue routine
+setCollection string supplier
+timeSpan
+weakReference 
+/C8"Buildin SubClasses"
+bag
+caselessColumnComparator caselessComparator caselessDescendingComparator circularQueue columnComparator
+descendingComparator
+identityTable invertingComparator
+list
+numericComparator
+relation
+stem streamSupplier
+table 
+
+/C9"Directives"
+** ::
+
+/C10"OORexx Dialog"
+absRect2LogRect add addAttribute aAddAutoStartMethod addComboEntry addDirectory addGrayFrame addFullSeq addIconResource addListEntry addNewAttribute
+addNewMethod addRow addSequence addStyle addUserMsg adjustToRectangle advancedControls alignLeft alignTop arrange askDialog assignFocus asyncMessageHandling autoDetect
+autoDetection
+backgroundBitmap backgroundColor backgroundSysColor BKColor
+cancel captureMouse changeBitmap changeBitmapButton changeComboEntry changeListEntry changePage check child childWindowFromPoint clear clearButtonRect clearControlRect
+clearRect clearSelRange clearTicks clearWindowRect clientToScreen clientRect closeDropDown collapse collapseAndReset columnInfo columnWidth combineELwithSB
+comboAddDirectory comboDrop connectActivate connectAllSBEvents connectButton connectButtonEvent connectCheckBox connectComboBox connectComboBoxEvent
+connectCommandEvents connectDateTimePicker connectDateTimePickerEvent connectDraw connectEachSBEvent connectEdit connectEditEvent connectEntryLine connectFKeyPress
+connectHelp connectKeyPress connectListBox connectListBoxEvent connectListView connectListViewEvent connectMenuItem connectMonthCalendar connectMonthCalendarEvent
+connectMouseCapture connectMove connectNotifyEvent connectPosChanged connectRadioButton connectResize connectResizing connectScrollBarEvent connectSizeMoveEnded
+connectStaticEvent connectTab connectTabEvent connectToolTipEvent connectTrackBar connectTrackBarEvent connectTreeView connectTreeViewEvent connectUpDown
+connectUpDownEvent constDir CountTicks create createBitmapButton createBlackFrame createBlackRect createBrush createCenter createCheckBox createCheckBoxGroup
+createCheckBoxStem createComboBox createComboBoxInput createEdit createEditInput createEditInputGroup createEditInputStem createEtchedFrame createEtchedHorizontal
+createEtchedFrameVertical createFont createFontEx createGrayFrame createGrayRect createGroupBox createListBox createListView createOkCancelLeftBottom
+createOkCancelLeftTop createOkCancelRightBottom createOkCancelRightTop createPasswordEdit createPen createProgressBar createPushButton createPushButtonGroup
+createRadioButton createRadioButtonGroup createRadioButtonStem createScrollBar createStatic createStaticImage createStaticText createTab createTrackbar createTreeView
+createWhiteFrame createWhiteRect createToolTip CursorPos Cursor_AppStarting Cursor_Arrow Cursor_Cross Cursor_No Cursor_Wait
+defListDragHandler defTreeDragHandler defineDialog delete deleteAll deleteColumn deleteComboEntry deleteFont deleteListEntry deleteObject deselect deselectRange
+determinePosition determineSBPosition dimBitmap disable disableControl disconnectKeyPress displaceBitmap display dlgHandle dlgID dlgUnit2pixel draw drawAngleArc drawArc
+drawBitmap drawButton drawLine drawPie drawPixel dropHighlight dropHighlighted
+enable enableControl endAsyncExecution endEdit ensureCaretVisibility ensureVisible errorDialog execute executeAsync expand
+factorX factorY fillDrawing find findComboEntry findListEntry findNearestXY findPartial firstVisible firstVisibleLine focus focusItem fontColor focusControl fontName
+fontSize fontToDC foregroundWindow freeButtonDC freeControlDC freeDC freeWindowDC
+getArcDirection getAttrib getBitmapPosition getBitmapSizeX getBitmapSizeY getBmpDisplacement getButtonDC getButtonRect getCheckBoxData getClientRect getComboBoxData
+getComboEntry getComboItems getComboLine getControlData getControlDC getControlHandle getControlID getControlRect getControlText getCurrentComboIndex
+getCurrentListIndex getDC getData getDataAttribute getDataStem getEditData GetEditControl getEntryLine getExStyleRaw GetFirstVisible getFocus getID getItem getFont
+getFontName getFontSize getLine getLineStep getListBoxData getListEntry getListItemHeight getListItemHeightPx getListItems getListWidth getListWidthPx getMenuBar
+getMouseCapture getPageStep getPixel getPos getRadioButton getRadioButtonData getRadioControl getRealPos getRealSize getRect getSBPos getSBRangeGetScrollBar
+getSelectedPage getScrollBar getSelf getSize getStaticControl getStyleRaw getText getTextAlign getTextExtent getTextSizeDlg getTextSizeDu getTextSizePx
+getTextSizeScreen getTextSizeTitleBar getTick getWindowDC getWindowRect getWindowText
+handleMessages hasKeyPressConnection hasMenuBar help hide hideControl hideControlFast hideFast hideItem hideItemFast hideWindow hideWindowFast hitTest hScrollPos hwnd
+indent indeterminate infoDialog init initAutoDetection initCategories initDialog initRange initSelRange InsertColumn insertComboEntry insertListEntry
+installAnimatedButton installBitmapButton is32on64bit isAncestor isAssigned isAtLeastVista isAtLeastW2K isAtLeastW2K3 isAtLeastWindows7 isAtLeastXP isAttached
+isButtonDown isCanceled isChecked isCommandItem isComplete isDialogActive isDisabled isDropDown isDropDownList isDropDownOpen isEnabled isGrandchild isGrayed
+isIndeterminate isMaximized isMinimized isModified IsMouseButtonDown isNull isPopup isReleased isSeparator isServer2008 isServer2008R2 isSimple isSingleLine
+isSingleSelection isValidItemID isValidMenu isValidMenuHandle isVisible isVista isW2K isW2K3 isWindows7 isWow64 isXP isXP32 isXP64 itemData itemHeight itemHeight=
+itemHeightPx itemHeightPx= itemInfo itemPos items itemsPerPage itemState itemTitle ItemsPerPage itemStateMask itemText itemTextToMethodName
+last lastSelected leaving lineFromIndex lineIndex lineLength lineScroll listAddDirectory listDrop load loadBitmap loadFrame loadItems
+makeFirstVisible mapWindowPoints margins maximize minimize modify modifyColumn move moveControl moveItem moveTo moveWindow MSSleep
+newCheckBox newComboBox newDateTimePicker newEdit newGroupBox newListBox newListView newMonthCalendar newProgressBar newPushButton newRadioButton newScrollBar newStatic
+newTab newToolTip newTrackBar newTreeView newUpDown next nextLeft nextPage nextRight nextSelected nextVisible noAutoDetection
+objectToDC ok onBeginDrag onBeginRightDrag onColumnClick onEndEdit onFocusChanged onGetDayState onKeyDown onRelease onSelChanged onSelect onSelectChanged
+onSelectFocusChanged onViewChange opaqueText openDropDown ownerDialog
+parseIncludefile pageHasChanged parent passwordChar pixel2DlgUnit pixelCX pixelCY play popup popupAsChild posRectangle prepare4nItems previous previousPage
+previousSelected previousVisible processMessage
+range rectangle redraw redrawButton redrawClient redrawControl redrawItems redrawRect redrawWindow redrawWindowRect releaseMouseCapture removeBitmap removeStyle
+replaceSelText replaceStyle requiredWindowSize resize resizeControl resizeItem resizeTo resolveNumericID resolveSymbolicID restore restoreCursorShape restoreEditClass
+root rows
+screen2client screenToClient scroll scrollBitmapFromTo scrollButton scrollCommand scrollInButton scrollInControl scrollText selRange selectIndex selectRange
+selectedIndex selectedIndexes selectedItems sendMessage sendMessageHandle sendMessageToControl sendMessageToControlH sendMessageToItem sendMessageToWindow
+sendMessageToWindowH setArcDirection setAttrib setBitmapPosition setCheckBox setCheckBoxData setColor setColumnWidth setComboBoxData SetComboLine setControlColor
+setControlData setControlFont setControlSysColor setControlText setCurrentComboIndex setCurrentListIndex setCursorPos setData setDataAttribute setDataStem
+setDefaultFont setDlgFont setEditData setEntryLine setFocus setFocusToWindow setFont setForegroundWindow setGroup setHScrollPos setItemFont setItemPos setItemState
+setItemText setLimit setLineStep setListBoxData setListColumnWidth setListColumnWidthPx setListItemHeight setListItemHeightPx setListLine setListTabulators setListWidth
+setListWidthPx setMargins setMax setMin setModified setMultiList setPadding setPageStep setPos setRadioButton setRadioButtonData setRange setReadOnly setRect setSBPos
+setSBRange setSelEnd setSelStart setSize setStep setTabulators setTickAt setTickFrequency setStyleRaw setTabStop setText setTextAlign setTitle setVScrollPos setValue
+setWidth setWindowPos setWindowRect setWindowText setWindowTitle show showControl showControlFast showFast howItem showItemFast showWindow showWindowFast sizeWindow
+sizeX sizeY smallSpacing snapToGrid sortChildren spacing startIt state step stopIt stringWidth style subclassEdit
+tabToNext tabToPrevious textBkColor textColor tiledBackgroundBitmap title title= toTheTop toggle transparentText
+uncheck update updateItem updateWindow userDialog
+validate visibleItems vScrollPos
+width windowRect writeDirect writeToButton writeToControl writeToWindow
+

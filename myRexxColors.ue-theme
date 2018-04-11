@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UETheme>
+  <Window>
+    <Color ID="ID_APPLICATION_BACKGROUND" Value="#14171A"/>
+    <Color ID="ID_BUTTON_BORDER" Value="#252C33"/>
+    <Color ID="ID_BUTTON_BORDER_CLICKED" Value="#202020"/>
+    <Color ID="ID_BUTTON_TEXT" Value="#5C6773"/>
+    <Color ID="ID_BUTTON_TEXT_CHECKED" Value="#A9BACB"/>
+    <Color ID="ID_DIALOG_BACKGROUND2" Value="#14171A"/>
+    <Color ID="ID_DIALOG_TEXT2" Value="#5C6773"/>
+    <Color ID="ID_DOCKABLE_WINDOW_BACKGROUND" Value="#181D20"/>
+    <Color ID="ID_DOCKABLE_WINDOW_CAPTION_BUTTON" Value="#AF86FA"/>
+    <Color ID="ID_DOCKABLE_WINDOW_CAPTION_BUTTON_HIGHLIGHT" Value="#14171A"/>
+    <Color ID="ID_DOCKABLE_WINDOW_CAPTION_BUTTON_MOUSEDOWN" Value="#14171A"/>
+    <Color ID="ID_DOCKABLE_WINDOW_CAPTION_TEXT" Value="#5C6773"/>
+    <Color ID="ID_DOCKABLE_WINDOW_HIDDEN_TEXT_AND_BORDER" Value="#5C6773"/>
+    <Color ID="ID_DOCKABLE_WINDOW_TEXT" Value="#C8CDD2"/>
+    <Color ID="ID_FILETAB_BORDER_ACCENT" Value="#343C45"/>
+    <Color ID="ID_FILETAB_BUTTON" Value="#AF86FA"/>
+    <Color ID="ID_FILETAB_BUTTON_BACKGROUND_HIGHLIGHT" Value="#FFFFFF"/>
+    <Color ID="ID_FILETAB_BUTTON_BACKGROUND_MOUSEDOWN" Value="#14171A"/>
+    <Color ID="ID_FILETAB_CONTROLBUTTONS" Value="#000000"/>
+    <Color ID="ID_FILETAB_CONTROLBUTTONS_BACKGROUND_HIGHLIGHT" Value="#14171A"/>
+    <Color ID="ID_FILETAB_CONTROLBUTTONS_BACKGROUND_MOUSEDOWN" Value="#FFFFFF"/>
+    <Color ID="ID_FILETAB_TEXT" Value="#5C6773"/>
+    <Color ID="ID_FILETAB_TEXT_ACTIVE" Value="#C8CDD2"/>
+    <Color ID="ID_FOCUS_RECTANGLE" Value="#FFFFFF"/>
+    <Color ID="ID_HEADER_BORDER" Value="#14171A"/>
+    <Color ID="ID_HEADER_TEXT" Value="#5C6773"/>
+    <Color ID="ID_MENU_BACKGROUND" Value="#252C33"/>
+    <Color ID="ID_MENU_BORDER" Value="#14171A"/>
+    <Color ID="ID_MENU_BORDER_SHADOW" Value="#A9BACB"/>
+    <Color ID="ID_MENU_ITEM_BACKGROUND_HIGHLIGHT" Value="#14171A"/>
+    <Color ID="ID_MENU_ITEM_BORDER_HIGHLIGHT" Value="#343C45"/>
+    <Color ID="ID_MENU_ITEM_BORDER_TOGGLE" Value="#3E4852"/>
+    <Color ID="ID_MENU_ITEM_CHECKED_BACKGROUND" Value="#252C33"/>
+    <Color ID="ID_MENU_ITEM_CHECKED_BACKGROUND_HIGHLIGHT" Value="#14171A"/>
+    <Color ID="ID_MENU_ITEM_CHECKED_BACKGROUND_TOGGLE" Value="#181B1F"/>
+    <Color ID="ID_MENU_ITEM_CHECKED_BORDER" Value="#FF0000"/>
+    <Color ID="ID_MENU_ITEM_CHECKED_BORDER_HIGHLIGHT" Value="#A9BACB"/>
+    <Color ID="ID_MENU_ITEM_TEXT_HIGHLIGHT" Value="#A9BACB"/>
+    <Color ID="ID_MENU_SEPARATOR" Value="#37414A"/>
+    <Color ID="ID_MENU_TEXT" Value="#A9BACB"/>
+    <Color ID="ID_MENU_TEXT_DISABLED" Value="#37414A"/>
+    <Color ID="ID_MENU_TOP_LEVEL_BACKGROUND_ACTIVE" Value="#37414A"/>
+    <Color ID="ID_MENU_TOP_LEVEL_HIGHLIGHT_BACKGROUND" Value="#FF0000"/>
+    <Color ID="ID_MENU_TOP_LEVEL_TEXT" Value="#A9BACB"/>
+    <Color ID="ID_MENU_TOP_LEVEL_TEXT_ACTIVE" Value="#A9BACB"/>
+    <Color ID="ID_MENU_TOP_LEVEL_TEXT_DISABLED" Value="#545D65"/>
+    <Color ID="ID_MENU_TOP_LEVEL_TEXT_HIGHLIGHT" Value="#FF0000"/>
+    <Color ID="ID_SCROLLBAR_BACKGROUND" Value="#FFFFFF"/>
+    <Color ID="ID_SCROLLBAR_KNOB" Value="#909090"/>
+    <Color ID="ID_SCROLLBAR_KNOB_HIGHLIGHTED" Value="#C0C0C0"/>
+    <Color ID="ID_SPLITTER_DIVIDER" Value="#14171A"/>
+    <Color ID="ID_STATUSBAR_SEPARATOR" Value="#5C6773"/>
+    <Color ID="ID_STATUSBAR_TEXT" Value="#5C6773"/>
+    <Color ID="ID_TEXTCONTROL_BACKGROUND" Value="#37414A"/>
+    <Color ID="ID_TEXTCONTROL_TEXT" Value="#5C6773"/>
+    <Color ID="ID_TOOLBAR_CUSTOMIZE_BUTTON_ICON" Value="#000000"/>
+    <Color ID="ID_TOOLBAR_GRIPPER" Value="#AF86FA"/>
+    <Color ID="ID_TOOLBAR_GRIPPER_SHADOW" Value="#181D20"/>
+    <Gradient ID="ID_APPLICATION_PANE_DIVIDER" Start="#14171A" Finish="#14171A"/>
+    <Gradient ID="ID_BUTTON_BACKGROUND_GRADIENT" Start="#252C33" Finish="#252C33"/>
+    <Gradient ID="ID_BUTTON_BACKGROUND_GRADIENT_CHECKED" Start="#252C33" Finish="#252C33"/>
+    <Gradient ID="ID_DOCKABLE_WINDOW_CAPTION_BACKGROUND_GRADIENT" Start="#252C33" Finish="#252C33"/>
+    <Gradient ID="ID_DOCKABLE_WINDOW_HIDDEN_BACKGROUND" Start="#252C33" Finish="#37414A"/>
+    <Gradient ID="ID_FILETABS_BACKGROUND" Start="#14171A" Finish="#14171A"/>
+    <Gradient ID="ID_FILETAB_BACKGROUND" Start="#252C33" Finish="#252C33"/>
+    <Gradient ID="ID_FILETAB_BACKGROUND_ACTIVE" Start="#004D71" Finish="#0080FF"/>
+    <Gradient ID="ID_GROUPTABS_BACKGROUND" Start="#181D20" Finish="#181D20"/>
+    <Gradient ID="ID_HEADER_BACKGROUND_GRADIENT" Start="#14171A" Finish="#14171A"/>
+    <Gradient ID="ID_MENU_BAR_BACKGROUND_GRADIENT" Start="#252C33" Finish="#252C33"/>
+    <Gradient ID="ID_OUTPUTTABS_BACKGROUND" Start="#181D20" Finish="#181D20"/>
+    <Gradient ID="ID_STATUSBAR_GRADIENT" Start="#252C33" Finish="#14171A"/>
+    <Gradient ID="ID_TOOLBAR_CUSTOMIZE_BUTTON_GRADIENT" Start="#252C33" Finish="#37414A"/>
+    <Gradient ID="ID_TOOLBAR_CUSTOMIZE_BUTTON_GRADIENT_HIGHLIGHT" Start="#252C33" Finish="#37414A"/>
+    <Gradient ID="ID_TOOLBAR_GRADIENT" Start="#252C33" Finish="#37414A"/>
+    <ColorPair Category="Matched String Text" Foreground="#000000" Background="#FFFF00"/>
+  </Window>
+  <Editor>
+    <ColorPair Category="Text" Foreground="#A9BACB" Background="#14171A"/>
+    <ColorPair Category="Selected Text" Foreground="#C8CDD2" Background="#285375"/>
+    <ColorPair Category="Active Line" Foreground="#C8CDD2" Background="#2D343C"/>
+    <ColorPair Category="Active Column" Foreground="#C8CDD2" Background="#070707"/>
+    <ColorPair Category="Highlight All" Foreground="#141414" Background="#BCF349"/>
+    <ColorPair Category="HTML/XML Tags" Foreground="#C8CDD2" Background="#285375"/>
+    <ColorPair Category="Auto Templates" Foreground="#002B4A" Background="#0560A3"/>
+    <ColorPair Category="Folding Controls" Foreground="#37414A" Background="#14171A"/>
+    <ColorPair Category="Brace Highlight" Foreground="#C8CDD2" Background="#FF0080"/>
+    <ColorPair Category="Line Numbers and Ruler" Foreground="#3E6480" Background="#181D20"/>
+    <ColorPair Category="Highlighted Control Item" Foreground="#FFFFFF" Background="#0950D0"/>
+    <ColorPair Category="Highlighted Control Item Inactive" Foreground="#000000" Background="#B0B0B0"/>
+    <Color Category="Spaces, Tabs, Line Terminators" Value="#343C45"/>
+    <Color Category="Bookmarks" Value="#800080"/>
+    <Color Category="Column Markers" Value="#37414A"/>
+    <Color Category="Read-Only Background" Value="#28171B"/>
+    <Color Category="LCI Saved" Value="#6A8826"/>
+    <Color Category="LCI Unsaved" Value="#840000"/>
+    <Boolean Category="Active Line" Value="true"/>
+  </Editor>
+  <Languages>
+    <Language Name="Apache Web Server">
+      <ColorPair Category="Color Group 13" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Bold</FontStyle>
+    </Language>
+    <Language Name="AutoHotkey">
+      <ColorPair Category="Color Group 13" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Bold</FontStyle>
+    </Language>
+    <Language Name="Bash">
+      <ColorPair Category="Comments" Foreground="#008080" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Comments">Normal</FontStyle>
+      <ColorPair Category="Alternate Block Comments" Foreground="#008080" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Alternate Block Comments">Normal</FontStyle>
+      <ColorPair Category="Strings" Foreground="#808080" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Strings">Normal</FontStyle>
+      <ColorPair Category="Numbers" Foreground="#FF0000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Numbers">Normal</FontStyle>
+      <ColorPair Category="Color Group 1" Foreground="#808BED" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 1">Normal</FontStyle>
+      <ColorPair Category="Color Group 2" Foreground="#FF0000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 2">Normal</FontStyle>
+      <ColorPair Category="Color Group 3" Foreground="#FF8000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 3">Normal</FontStyle>
+      <ColorPair Category="Color Group 4" Foreground="#008000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 4">Normal</FontStyle>
+      <ColorPair Category="Color Group 5" Foreground="#804040" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 5">Normal</FontStyle>
+      <ColorPair Category="Color Group 6" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 6">Normal</FontStyle>
+      <ColorPair Category="Color Group 7" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 7">Normal</FontStyle>
+      <ColorPair Category="Color Group 8" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 8">Normal</FontStyle>
+      <ColorPair Category="Color Group 9" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 9">Normal</FontStyle>
+      <ColorPair Category="Color Group 10" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 10">Normal</FontStyle>
+      <ColorPair Category="Color Group 11" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 11">Normal</FontStyle>
+      <ColorPair Category="Color Group 12" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 12">Normal</FontStyle>
+      <ColorPair Category="Color Group 13" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Normal</FontStyle>
+      <ColorPair Category="Color Group 14" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 14">Normal</FontStyle>
+      <ColorPair Category="Color Group 15" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 15">Normal</FontStyle>
+      <ColorPair Category="Color Group 16" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 16">Normal</FontStyle>
+      <ColorPair Category="Color Group 17" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 17">Normal</FontStyle>
+      <ColorPair Category="Color Group 18" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 18">Normal</FontStyle>
+      <ColorPair Category="Color Group 19" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 19">Normal</FontStyle>
+      <ColorPair Category="Color Group 20" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 20">Normal</FontStyle>
+    </Language>
+    <Language Name="C#">
+      <ColorPair Category="Color Group 1" Foreground="#9BC736" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 1">Normal</FontStyle>
+      <ColorPair Category="Color Group 3" Foreground="#AF86FA" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 3">Normal</FontStyle>
+      <ColorPair Category="Color Group 4" Foreground="#F0BC7D" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 4">Normal</FontStyle>
+    </Language>
+    <Language Name="C/C++">
+      <ColorPair Category="Color Group 2" Foreground="#E89330" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 2">Normal</FontStyle>
+      <ColorPair Category="Color Group 3" Foreground="#E85230" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 3">Normal</FontStyle>
+      <ColorPair Category="Color Group 4" Foreground="#F0BC7D" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 4">Normal</FontStyle>
+      <ColorPair Category="Color Group 5" Foreground="#F0BC7D" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 5">Normal</FontStyle>
+      <ColorPair Category="Color Group 13" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Bold</FontStyle>
+    </Language>
+    <Language Name="CSS">
+      <ColorPair Category="Color Group 1" Foreground="#E85230" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 1">Normal</FontStyle>
+      <ColorPair Category="Color Group 2" Foreground="#A1863F" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 2">Normal</FontStyle>
+      <ColorPair Category="Color Group 3" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 3">Normal</FontStyle>
+      <ColorPair Category="Color Group 4" Foreground="#9BC736" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 4">Normal</FontStyle>
+      <ColorPair Category="Color Group 5" Foreground="#831C72" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 5">Normal</FontStyle>
+      <ColorPair Category="Color Group 6" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 6">Normal</FontStyle>
+      <ColorPair Category="Color Group 7" Foreground="#AF86FA" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 7">Normal</FontStyle>
+      <ColorPair Category="Color Group 8" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 8">Normal</FontStyle>
+      <ColorPair Category="Color Group 9" Foreground="#CE1E5B" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 9">Normal</FontStyle>
+      <ColorPair Category="Color Group 10" Foreground="#E73925" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 10">Italic</FontStyle>
+      <ColorPair Category="Color Group 11" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 11">Normal</FontStyle>
+      <ColorPair Category="Color Group 12" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 12">Normal</FontStyle>
+      <ColorPair Category="Color Group 14" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 14">Normal</FontStyle>
+      <ColorPair Category="Color Group 15" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 15">Normal</FontStyle>
+      <ColorPair Category="Color Group 16" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 16">Normal</FontStyle>
+      <ColorPair Category="Color Group 17" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 17">Normal</FontStyle>
+      <ColorPair Category="Color Group 18" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 18">Normal</FontStyle>
+      <ColorPair Category="Color Group 19" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 19">Normal</FontStyle>
+      <ColorPair Category="Color Group 20" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 20">Normal</FontStyle>
+    </Language>
+    <Language Name="Document Type Definition (DTD)">
+      <ColorPair Category="Strings" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Strings">Normal</FontStyle>
+      <ColorPair Category="Color Group 1" Foreground="#0A5CFF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 1">Italic</FontStyle>
+    </Language>
+    <Language Name="HTML">
+      <ColorPair Category="Color Group 1" Foreground="#E85230" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 1">Normal</FontStyle>
+      <ColorPair Category="Color Group 2" Foreground="#E89330" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 2">Normal</FontStyle>
+      <ColorPair Category="Color Group 3" Foreground="#CE1E5B" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 3">Normal</FontStyle>
+      <ColorPair Category="Color Group 4" Foreground="#AA0055" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 4">Normal</FontStyle>
+      <ColorPair Category="Color Group 13" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Bold</FontStyle>
+    </Language>
+    <Language Name="IDM Wordfiles">
+      <ColorPair Category="Color Group 9" Foreground="#0080FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 9">Normal</FontStyle>
+      <ColorPair Category="Color Group 13" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Bold</FontStyle>
+    </Language>
+    <Language Name="IDM Wordfiles (OLD)">
+      <ColorPair Category="Color Group 13" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Bold</FontStyle>
+    </Language>
+    <Language Name="INI Files">
+      <ColorPair Category="Color Group 13" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Bold</FontStyle>
+    </Language>
+    <Language Name="Java">
+      <ColorPair Category="Color Group 1" Foreground="#9BC736" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 1">Normal</FontStyle>
+      <ColorPair Category="Color Group 2" Foreground="#E89330" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 2">Normal</FontStyle>
+      <ColorPair Category="Color Group 3" Foreground="#F0BC7D" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 3">Normal</FontStyle>
+    </Language>
+    <Language Name="JavaScript">
+      <ColorPair Category="Color Group 1" Foreground="#808BED" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 1">Normal</FontStyle>
+      <ColorPair Category="Color Group 5" Foreground="#831C72" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 5">Normal</FontStyle>
+      <ColorPair Category="Color Group 6" Foreground="#247599" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 6">Normal</FontStyle>
+      <ColorPair Category="Color Group 7" Foreground="#247599" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 7">Normal</FontStyle>
+      <ColorPair Category="Color Group 10" Foreground="#AA0055" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 10">Normal</FontStyle>
+      <ColorPair Category="Color Group 13" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Bold</FontStyle>
+    </Language>
+    <Language Name="MS-DOS">
+      <ColorPair Category="Color Group 1" Foreground="#808BED" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 1">Normal</FontStyle>
+      <ColorPair Category="Color Group 3" Foreground="#FF8000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 3">Normal</FontStyle>
+      <ColorPair Category="Color Group 5" Foreground="#831C72" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 5">Normal</FontStyle>
+      <ColorPair Category="Color Group 6" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 6">Normal</FontStyle>
+      <ColorPair Category="Color Group 7" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 7">Normal</FontStyle>
+      <ColorPair Category="Color Group 8" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 8">Normal</FontStyle>
+      <ColorPair Category="Color Group 9" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 9">Normal</FontStyle>
+      <ColorPair Category="Color Group 10" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 10">Normal</FontStyle>
+      <ColorPair Category="Color Group 11" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 11">Normal</FontStyle>
+      <ColorPair Category="Color Group 12" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 12">Normal</FontStyle>
+      <ColorPair Category="Color Group 13" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Normal</FontStyle>
+      <ColorPair Category="Color Group 14" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 14">Normal</FontStyle>
+      <ColorPair Category="Color Group 15" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 15">Normal</FontStyle>
+      <ColorPair Category="Color Group 16" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 16">Normal</FontStyle>
+      <ColorPair Category="Color Group 17" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 17">Normal</FontStyle>
+      <ColorPair Category="Color Group 18" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 18">Normal</FontStyle>
+      <ColorPair Category="Color Group 19" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 19">Normal</FontStyle>
+      <ColorPair Category="Color Group 20" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 20">Normal</FontStyle>
+    </Language>
+    <Language Name="NSIS Script v2.43">
+      <ColorPair Category="Color Group 13" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Bold</FontStyle>
+    </Language>
+    <Language Name="PHP">
+      <ColorPair Category="Color Group 1" Foreground="#E89326" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 1">Normal</FontStyle>
+      <ColorPair Category="Color Group 2" Foreground="#CE1E5B" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 2">Normal</FontStyle>
+      <ColorPair Category="Color Group 4" Foreground="#F0BC7D" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 4">Normal</FontStyle>
+      <ColorPair Category="Color Group 5" Foreground="#E73925" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 5">Normal</FontStyle>
+      <ColorPair Category="Color Group 6" Foreground="#E73925" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 6">Normal</FontStyle>
+      <ColorPair Category="Color Group 7" Foreground="#E73925" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 7">Normal</FontStyle>
+      <ColorPair Category="Color Group 8" Foreground="#808BED" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 8">Normal</FontStyle>
+    </Language>
+    <Language Name="Perl">
+      <ColorPair Category="Strings" Foreground="#53ADF8" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Strings">Normal</FontStyle>
+      <ColorPair Category="Color Group 1" Foreground="#808BED" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 1">Normal</FontStyle>
+      <ColorPair Category="Color Group 4" Foreground="#F0BC7D" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 4">Normal</FontStyle>
+      <ColorPair Category="Color Group 5" Foreground="#CE1E5B" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 5">Normal</FontStyle>
+      <ColorPair Category="Color Group 6" Foreground="#CE1E5B" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 6">Normal</FontStyle>
+      <ColorPair Category="Color Group 7" Foreground="#CE1E5B" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 7">Normal</FontStyle>
+      <ColorPair Category="Color Group 8" Foreground="#9BC736" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 8">Normal</FontStyle>
+      <ColorPair Category="Color Group 9" Foreground="#FF0080" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 9">Normal</FontStyle>
+    </Language>
+    <Language Name="Registry">
+      <ColorPair Category="Strings" Foreground="#53ADF8" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Strings">Normal</FontStyle>
+      <ColorPair Category="Color Group 6" Foreground="#AA0055" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 6">Normal</FontStyle>
+      <ColorPair Category="Color Group 7" Foreground="#FF8000" Background="#000000" Auto="true"/>
+      <FontStyle Category="Color Group 7">Normal</FontStyle>
+      <ColorPair Category="Color Group 8" Foreground="#831C72" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 8">Normal</FontStyle>
+    </Language>
+    <Language Name="UE Themes">
+      <ColorPair Category="Text" Foreground="#5A7896" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Text">Normal</FontStyle>
+      <ColorPair Category="Color Group 3" Foreground="#FF8040" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 3">Normal</FontStyle>
+      <ColorPair Category="Color Group 4" Foreground="#9BC736" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 4">Normal</FontStyle>
+      <ColorPair Category="Color Group 5" Foreground="#831C72" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 5">Normal</FontStyle>
+      <ColorPair Category="Color Group 6" Foreground="#FF8000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 6">Normal</FontStyle>
+      <ColorPair Category="Color Group 7" Foreground="#72758D" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 7">Normal</FontStyle>
+      <ColorPair Category="Color Group 8" Foreground="#0080FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 8">Normal</FontStyle>
+      <ColorPair Category="Color Group 9" Foreground="#808BD9" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 9">Normal</FontStyle>
+      <ColorPair Category="Color Group 10" Foreground="#247599" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 10">Normal</FontStyle>
+      <ColorPair Category="Color Group 11" Foreground="#AA0055" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 11">Normal</FontStyle>
+      <ColorPair Category="Color Group 12" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 12">Normal</FontStyle>
+      <ColorPair Category="Color Group 13" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Normal</FontStyle>
+      <ColorPair Category="Color Group 14" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 14">Normal</FontStyle>
+      <ColorPair Category="Color Group 15" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 15">Normal</FontStyle>
+      <ColorPair Category="Color Group 16" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 16">Normal</FontStyle>
+      <ColorPair Category="Color Group 17" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 17">Normal</FontStyle>
+      <ColorPair Category="Color Group 18" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 18">Normal</FontStyle>
+      <ColorPair Category="Color Group 19" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 19">Normal</FontStyle>
+      <ColorPair Category="Color Group 20" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 20">Normal</FontStyle>
+    </Language>
+    <Language Name="YAML">
+      <ColorPair Category="Color Group 13" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Bold</FontStyle>
+    </Language>
+    <Language Name="to-do list">
+      <ColorPair Category="Text" Foreground="#000000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Text">Normal</FontStyle>
+      <ColorPair Category="Comments" Foreground="#008080" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Comments">Normal</FontStyle>
+      <ColorPair Category="Alternate Block Comments" Foreground="#008080" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Alternate Block Comments">Normal</FontStyle>
+      <ColorPair Category="Strings" Foreground="#808080" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Strings">Normal</FontStyle>
+      <ColorPair Category="Numbers" Foreground="#FF0000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Numbers">Normal</FontStyle>
+      <ColorPair Category="Color Group 2" Foreground="#FF0000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 2">Normal</FontStyle>
+      <ColorPair Category="Color Group 3" Foreground="#FF8000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 3">Normal</FontStyle>
+      <ColorPair Category="Color Group 4" Foreground="#008000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 4">Normal</FontStyle>
+      <ColorPair Category="Color Group 5" Foreground="#804040" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 5">Normal</FontStyle>
+      <ColorPair Category="Color Group 6" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 6">Normal</FontStyle>
+      <ColorPair Category="Color Group 7" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 7">Normal</FontStyle>
+      <ColorPair Category="Color Group 8" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 8">Normal</FontStyle>
+      <ColorPair Category="Color Group 9" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 9">Normal</FontStyle>
+      <ColorPair Category="Color Group 10" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 10">Normal</FontStyle>
+      <ColorPair Category="Color Group 11" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 11">Normal</FontStyle>
+      <ColorPair Category="Color Group 12" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 12">Normal</FontStyle>
+      <ColorPair Category="Color Group 13" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Normal</FontStyle>
+      <ColorPair Category="Color Group 14" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 14">Normal</FontStyle>
+      <ColorPair Category="Color Group 15" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 15">Normal</FontStyle>
+      <ColorPair Category="Color Group 16" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 16">Normal</FontStyle>
+      <ColorPair Category="Color Group 17" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 17">Normal</FontStyle>
+      <ColorPair Category="Color Group 18" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 18">Normal</FontStyle>
+      <ColorPair Category="Color Group 19" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 19">Normal</FontStyle>
+      <ColorPair Category="Color Group 20" Foreground="#0000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 20">Normal</FontStyle>
+    </Language>
+    <Language Name="ooRexx (Open Object Rexx)">
+      <ColorPair Category="Numbers" Foreground="#EF000C" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Numbers">Normal</FontStyle>
+      <ColorPair Category="Color Group 2" Foreground="#568A12" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 2">Normal</FontStyle>
+      <ColorPair Category="Color Group 4" Foreground="#FCAD0A" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 4">Normal</FontStyle>
+      <ColorPair Category="Color Group 6" Foreground="#1EB014" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 6">Normal</FontStyle>
+      <ColorPair Category="Color Group 7" Foreground="#FCAD0A" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 7">Normal</FontStyle>
+      <ColorPair Category="Color Group 8" Foreground="#FFFF0A" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 8">Normal</FontStyle>
+      <ColorPair Category="Color Group 9" Foreground="#A9AB00" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 9">Normal</FontStyle>
+    </Language>
+    <Language Name="Default">
+      <ColorPair Category="Text" Foreground="#A9BACB" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Text">Normal</FontStyle>
+      <ColorPair Category="Comments" Foreground="#808080" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Comments">Italic</FontStyle>
+      <ColorPair Category="Alternate Block Comments" Foreground="#808080" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Alternate Block Comments">Italic</FontStyle>
+      <ColorPair Category="Strings" Foreground="#53ADF8" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Strings">Italic</FontStyle>
+      <ColorPair Category="Numbers" Foreground="#800040" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Numbers">Normal</FontStyle>
+      <ColorPair Category="Color Group 1" Foreground="#0A5CFF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 1">Normal</FontStyle>
+      <ColorPair Category="Color Group 2" Foreground="#008000" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 2">Normal</FontStyle>
+      <ColorPair Category="Color Group 3" Foreground="#FF00FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 3">Normal</FontStyle>
+      <ColorPair Category="Color Group 4" Foreground="#8000FF" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 4">Normal</FontStyle>
+      <ColorPair Category="Color Group 5" Foreground="#AF86FA" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 5">Normal</FontStyle>
+      <ColorPair Category="Color Group 6" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 6">Normal</FontStyle>
+      <ColorPair Category="Color Group 7" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 7">Normal</FontStyle>
+      <ColorPair Category="Color Group 8" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 8">Normal</FontStyle>
+      <ColorPair Category="Color Group 9" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 9">Normal</FontStyle>
+      <ColorPair Category="Color Group 10" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 10">Normal</FontStyle>
+      <ColorPair Category="Color Group 11" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 11">Normal</FontStyle>
+      <ColorPair Category="Color Group 12" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 12">Normal</FontStyle>
+      <ColorPair Category="Color Group 13" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 13">Normal</FontStyle>
+      <ColorPair Category="Color Group 14" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 14">Normal</FontStyle>
+      <ColorPair Category="Color Group 15" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 15">Normal</FontStyle>
+      <ColorPair Category="Color Group 16" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 16">Normal</FontStyle>
+      <ColorPair Category="Color Group 17" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 17">Normal</FontStyle>
+      <ColorPair Category="Color Group 18" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 18">Normal</FontStyle>
+      <ColorPair Category="Color Group 19" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 19">Normal</FontStyle>
+      <ColorPair Category="Color Group 20" Foreground="#5391C4" Background="#FFFFFF" Auto="true"/>
+      <FontStyle Category="Color Group 20">Normal</FontStyle>
+    </Language>
+  </Languages>
+  <Compare>
+    <Color ID="ID_TEXT_ACTIVE_LINE" Value="#000000"/>
+    <Color ID="ID_TEXT_3WAY_SPLITTER" Value="#000000"/>
+    <Color ID="ID_TEXT_ALIGNED_BLOCK" Value="#000000"/>
+    <Color ID="ID_TEXT_COMMON12" Value="#000000"/>
+    <Color ID="ID_TEXT_COMMON123" Value="#000000"/>
+    <Color ID="ID_TEXT_COMMON23" Value="#000000"/>
+    <Color ID="ID_TEXT_DIFFERENCE_INDICATOR" Value="#000000"/>
+    <Color ID="ID_TEXT_EDITED_BLOCK" Value="#000000"/>
+    <Color ID="ID_TEXT_LINE_NUMBER" Value="#000000"/>
+    <Color ID="ID_TEXT_MERGED_BLOCK" Value="#000000"/>
+    <Color ID="ID_TEXT_RELATIONAL_LINES" Value="#000000"/>
+    <Color ID="ID_BINARY_LINE_NUMBER" Value="#000000"/>
+    <Color ID="ID_FOLDER_DIFFERENCE" Value="#000000"/>
+    <Color ID="ID_FOLDER_EXISTING" Value="#000000"/>
+    <Color ID="ID_FOLDER_MARKED" Value="#000000"/>
+    <Color ID="ID_FOLDER_NEWER" Value="#000000"/>
+    <Color ID="ID_FOLDER_OLDER" Value="#000000"/>
+    <Color ID="ID_FOLDER_SPLITTER" Value="#000000"/>
+    <Color ID="ID_FOLDER_STRIPE" Value="#000000"/>
+    <Color ID="ID_FOLDER_STCD" Value="#000000"/>
+    <ColorPair ID="ID_TEXT_DIFFERENCE_PAIR" Foreground="#000000" Background="#000000"/>
+    <ColorPair ID="ID_TEXT_MATCH_PAIR" Foreground="#000000" Background="#000000"/>
+    <ColorPair ID="ID_TEXT_NAVIGATION12_PAIR" Foreground="#000000" Background="#000000"/>
+    <ColorPair ID="ID_TEXT_NAVIGATION23_PAIR" Foreground="#000000" Background="#000000"/>
+    <ColorPair ID="ID_BINARY_DIFFERENCE_PAIR" Foreground="#000000" Background="#000000"/>
+    <ColorPair ID="ID_BINARY_MATCH_PAIR" Foreground="#000000" Background="#000000"/>
+    <ColorPair ID="ID_BINARY_NAVIGATION_PAIR" Foreground="#000000" Background="#000000"/>
+    <ColorPair ID="ID_FOLDER_MATCH_PAIR" Foreground="#000000" Background="#000000"/>
+    <ColorPair ID="ID_FOLDER_NAVIGATION_PAIR" Foreground="#000000" Background="#000000"/>
+  </Compare>
+</UETheme>
+
